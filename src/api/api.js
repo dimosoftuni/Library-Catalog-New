@@ -1,6 +1,6 @@
-import { settings } from '../config.js';
+import * as config from '../config.js';
 
-export const settings = settings;
+export const settings = config.settings;
 
 async function request(url, options) {
     try {
