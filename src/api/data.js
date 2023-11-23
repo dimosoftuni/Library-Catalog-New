@@ -1,4 +1,9 @@
 import * as api from './api.js';
+import * as config from '../config.js';
+
+const backend = { host: 'https://be-new.onrender.com' };
+
+export const settings = config || backend
 
 const host = api.settings.host
 
