@@ -1,1 +1,1 @@
-export const config = { host: 'https://be-new.onrender.com' };
+export const settings = { host: 'https://be-new.onrender.com' };

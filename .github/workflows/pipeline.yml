@@ -29,7 +29,7 @@ jobs:
     - name: Wait for services to start
       run: sleep 10
     - name: Create config file
-      run: echo "export const config = { host:'http://localhost:3030' };" > src/config.js
+      run: echo "export const settings = { host:'http://localhost:3030' };" > src/config.js
     - name: Start FrontEnd
       run: npm run start-fe &
     - name: Wait for services to start
